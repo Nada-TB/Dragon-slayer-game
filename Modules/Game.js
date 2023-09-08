@@ -32,6 +32,7 @@ export const game =()=>{
         let attacker= defineAttacker();
         player.attacker=attacker;
         dragon.attacker=attacker;
+        choices.attacker=attacker;
         let dammagePoints=player.calculateDammage();
         let penality=player.definePenality();
         turn++;
@@ -52,7 +53,7 @@ export const game =()=>{
         document.getElementById('dammagePoints').textContent=dammagePoints;
         document.getElementById('penality').textContent=penality;
         document.getElementById('updatePlayerPoints').textContent=player.points;
-        document.getElementById('updatedragonPoints').textContent=dragon.points;
+        document.getElementById('updateDragonPoints').textContent=dragon.points;
     },1000);
 }
 
