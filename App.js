@@ -1,6 +1,6 @@
-import {game} from './Game.js';
-import {checkObjectValues} from "./Utilities.js";
-import { choices } from "./SetupGame.js";
+import {game} from './Modules/Game.js';
+import {checkObjectValues} from "./Modules/Utilities.js";
+import { choices } from "./Modules/SetupGame.js";
 
 let play= document.querySelector('button');
 
