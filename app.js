@@ -1,6 +1,6 @@
-import {game} from './Modules/Game.js';
-import {checkObjectValues} from "./Modules/Utilities.js";
-import { choices } from "./Modules/SetUpGame.js";
+import {game} from 'Dragon-slayer-game/blob/main/Modules/Game.js';
+import {checkObjectValues} from "Dragon-slayer-game/blob/main/Modules/Utilities.js";
+import { choices } from "Dragon-slayer-game/blob/main/Modules/SetUpGame.js";
 
 let play= document.querySelector('button');
 
