@@ -1,6 +1,6 @@
-import Player from '/Dragon-slayer-game/Game.js/Modules/Player.js';
-import {defineAttacker} from '/Dragon-slayer-game/Modules/Utilities.js';
-import {choices,armorBtn,levelBtn,swordBtn,preparation,gameResult} from '/Dragon-slayer-game/Modules/SetUpGame.js';
+import Player from 'Modules/Player.js';
+import {defineAttacker} from 'Modules/Utilities.js';
+import {choices,armorBtn,levelBtn,swordBtn,preparation,gameResult} from 'Modules/SetUpGame.js';
 
 export const game =()=>{
     let turn=0;
