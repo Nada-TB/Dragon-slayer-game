@@ -1,4 +1,4 @@
-import {defineRandom} from 'Dragon-slayer-game/blob/main/Modules/Utilities.js'
+import {defineRandom} from '/Dragon-slayer-game/blob/main/Modules/Utilities.js'
 
 class Player {
     constructor(identity) {
