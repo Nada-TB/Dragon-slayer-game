@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+    color:blue;
+}
+.hide{
+    display: none!
+}
+
+button {
+    width: 150px;
+    margin-bottom:15px;
+    padding:20px;
+  
+}
+
+span{
+  color:red;
+  font-size: 1.2em;
+}
+
+#preparation{
+  width:50%;
+  margin:10px auto;
+  border:15px inset blue;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+#preparation div{
+  padding:10px;
+  font-size:1.2em;
+}
+h2{
+  text-align:center;
+  padding: 10px;
+}
+
+#game{
+  width:50%;
+  margin: 10px auto;
+  text-align:center;
+  text-transform: capitalize;
+  box-shadow:2px 3px 15px green;
+  padding:5px;
+}
