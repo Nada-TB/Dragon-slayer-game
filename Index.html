@@ -1,0 +1,61 @@
+<head>
+    <meta charset="UTF-8" />
+    <title>dragon slayer game</title>
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  
+  <body>
+    <header>
+      <h1>Dragon slayer game </h1>
+    </header>
+    <main>
+      <h2 id="gameOver"></h2>
+      <div id="preparation" class="">
+        <div>
+          <label for="level">choose the level of the game:</label>
+          <select name="level" id="">
+            <option value="">Select your option</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div>
+          <label for="armor">choose your armor :</label>
+          <select name="armor" id="">
+            <option value="">select your armor</option>
+            <option value="copper">copper</option>
+            <option value="iron">iron</option>
+            <option value="magic">magic</option>
+          </select>
+        </div>
+        <div>
+          <label for="sword">choose your sword :</label>
+          <select name="sword" id="">
+            <option value="">select your sword</option>
+            <option value="wood">wood</option>
+            <option value="steel">steel</option>
+            <option value="excalibur">excalibur</option>
+          </select>
+        </div>
+        <button>play</button>
+      </div>
+  
+      <div id="game" class="hide">
+        <p>set :<span id="turn"></span></p>
+        <p> the game level :<span id="level"></span></p>
+        <p> player points :<span id="playerPoints"></span></p>
+        <p>dragon points :<span id="dragonPoints"></span></p>
+        <p> attacker is :<span id="attacker"></span></p>
+        <p>the victim is :<span id="victim"></span></p>
+        <p>the dammage points :<span id="dammagePoints"></span></p>
+        <p>penality :<span id="penality"></span></p>
+        <h3>new score</h3>
+        <p>new player points :<span id="updatePlayerPoints"></span></p>
+        <p>new dragon points :<span id="updateDragonPoints"></span></p>
+      </div>
+    </main>
+    <footer></footer>
+  
+    <script type="module" src="Index.js"></script>
+  </body>
