@@ -1,6 +1,6 @@
-import Player from '/Modules/Player.js';
-import {defineAttacker} from '/Modules/Utilities.js';
-import {choices,armorBtn,levelBtn,swordBtn,preparation,gameResult} from './SetupGame.js';
+import Player from '../Modules/Player.js';
+import {defineAttacker} from '../Modules/Utilities.js';
+import {choices,armorBtn,levelBtn,swordBtn,preparation,gameResult} from '../Modeles/SetUpGame.js';
 
 export const game =()=>{
     let turn=0;
