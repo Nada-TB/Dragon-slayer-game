@@ -1,4 +1,4 @@
-import {defineRandom} from 'Modules/Utilities.js'
+import {defineRandom} from '/Modules/Utilities.js'
 
 class Player {
     constructor(identity) {
