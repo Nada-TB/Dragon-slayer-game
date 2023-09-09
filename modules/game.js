@@ -26,7 +26,7 @@ export const game =()=>{
             for(const key in choices){
               choices[key]="";
             }
-            preparation.display.style="flex";
+            preparation.style.display="flex";
             gameResult.classList.add('hide');
           }
         let attacker= defineAttacker();
