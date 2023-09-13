@@ -43,3 +43,12 @@ h2{
   box-shadow:2px 3px 15px green;
   padding:5px;
 }
+
+@media screen and (min-width:280px) {
+  h2{
+    font-size:0.8em;
+  }
+  #preparation{
+    width:90%;
+  }
+}

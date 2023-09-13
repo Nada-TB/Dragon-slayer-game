@@ -51,7 +51,7 @@ export const game =()=>{
         document.getElementById('victim').textContent=attacker=='dragon' ? 'player' : 'dragon';
         document.getElementById('turn').textContent=turn;
         document.getElementById('dammagePoints').textContent=dammagePoints;
-        document.getElementById('penality').textContent=penality;
+        document.getElementById('penality').textContent=`${penality}%`;
         document.getElementById('updatePlayerPoints').textContent=player.points;
         document.getElementById('updateDragonPoints').textContent=dragon.points;
     },1000);
